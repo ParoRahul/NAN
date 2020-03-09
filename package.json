@@ -1,0 +1,17 @@
+{
+  "name": "opencv",
+  "version": "1.0.0",
+  "description": "opencv node integration testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --p src && electron build/main.js",
+    "cppbuild": "node-gyp clean configure build"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.14.0"
+  }
+}
